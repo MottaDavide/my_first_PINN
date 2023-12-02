@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "harmonic oscilattor via pinn"
+version = "0.1.0"
+description = "Retrieving the harmonic oscillator solution via PINN"
+authors = ["Davide Motta <davide.motta@luxottica.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
