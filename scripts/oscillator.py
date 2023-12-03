@@ -1,10 +1,6 @@
 import numpy as np
 from dataclasses import dataclass
 
-
-def ciao():
-    print('ciao')
-
 @dataclass
 class HarmonicOscillator:
     
