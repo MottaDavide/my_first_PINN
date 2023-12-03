@@ -11,7 +11,7 @@ The harmonic oscillator is a classic problem in mechanics. It describes the move
 The example problem we solve here is the 1D (undamped) harmonic oscillator:
 $$m \dfrac{d^2 x}{dt}  = - k x,$$
 with the initial condition:
-$$x(0) = 1$$
+$$x(0) = 0, \dot{x}(0) = 0$$
 This differential equation has this solution:
 $$x(t) = A \cos (\omega t + \phi)$$
 where
